@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .title {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .title h1,
+    h3 {
+      margin: 0;
+      padding: 0;
+      ;
+    }
+
+    html {
+      box-sizing: border-box;
+      background: #ffc600;
+      font-family: 'helvetica neue';
+      font-size: 20px;
+      font-weight: 200;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .site-wrap {
+      max-width: 700px;
+      margin: 80px auto;
+      background: white;
+      padding: 40px;
+      text-align: justify;
+    }
+
+    img {
+      margin: 10px;
+    }
+
+    .align-left {
+      float: left;
+      margin-right: 20px;
+    }
+
+    .align-right {
+      float: right;
+      margin-left: 20px;
+    }
+
+    .slide-in {
+      opacity: 0;
+      transition: all .5s;
+    }
+
+    .align-left.slide-in {
+      transform: translateX(-30%) scale(0.95);
+    }
+
+    .align-right.slide-in {
+      transform: translateX(30%) scale(0.95);
+    }
+
+    .slide-in.active {
+      opacity: 1;
+      transform: translateX(0%) scale(1);
+    }
+
+    p {
+      margin: 0;
+      line-height: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="title">
+    <h1>JavaScript 30: Day 13</h1>
+    <h3>Challenge: Slide in n scroll</h3>
+  </div>
+
+
+  <div class="site-wrap">
+    <div class="title2">
+      <h1>
+        My Favorite Hiphop Producers
+      </h1>
+    </div>
+    <a href="https://www.youtube.com/watch?v=_CL6n0FJZpk"><img width="600" height="400"
+        src="https://classicalbumsundays.com/wp-content/uploads/2017/12/the-chronic-dr-dre-10-things-you-didnt-know-b0cc4309-241b-4dbb-9504-da15f87c144c.jpg"
+        alt=""> </a>
+
+
+    <p><b>Dr. Dre</b>, is an American rapper,
+      record producer, entrepreneur, record executive, actor, and audio engineer. He is the founder and CEO of Aftermath
+      Entertainment and Beats Electronics, and was previously co-owner of Death Row Records.</p>
+    <p>Dr. Dre began his career as
+      a member of the World Class Wreckin' Cru in 1985, but found fame with the influential gangsta rap group N.W.A,
+      which popularized explicit lyrics in rap to detail the violence of street life. He is credited as a key figure in
+      the crafting and popularization of West Coast G-funk, a hip hop subgenre characterized as synthesizer-based with
+      slow, heavy beats. As of 2018, he is the third richest figure in hip hop, with a net worth of US$770 million.</p>
+    <p>Dr. Dre's solo debut studio album The Chronic (1992), released under Death Row Records, made him one of the
+      best-selling American music artists of 1993. It earned him a Grammy Award for Best Rap Solo Performance for the
+      single "Let Me Ride", as well as several accolades for the single "Nuthin' but a 'G' Thang". That year, he
+      produced Death Row labelmate Snoop Doggy Dogg's quadruple platinum debut Doggystyle, and mentored producers such
+      as his step-brother Warren G (leading to the multi-platinum debut Regulate...G Funk Era in 1994) and Snoop Dogg's
+      cousin Daz Dillinger (leading to the double-platinum debut Dogg Food by Tha Dogg Pound in 1995).</p>
+    <p>In 1996, Dr. Dre left Death Row Records to establish his own label, Aftermath Entertainment. He produced a
+      compilation album, Dr. Dre Presents the Aftermath, in 1996, and released a solo album, 2001, in 1999. During the
+      2000s, Dr. Dre focused on producing other artists, occasionally contributing vocals. Dr. Dre signed Eminem in 1998
+      and 50 Cent in 2002, and co-produced their albums.</p>
+    <p>Dr. Dre has won six Grammy Awards, including Producer of the Year; Non-Classical. Rolling Stone ranked Dre number
+      56 on the list of 100 Greatest Artists of All Time. He has produced albums for and overseen the careers of many
+      rappers, including 2Pac, Eminem, The D.O.C., Snoop Dogg, Xzibit, Knoc-turn'al, 50 Cent, The Game, Kendrick Lamar
+      and Anderson .Paak. He has also had acting roles in movies such as Set It Off, The Wash and Training Day.</p>
+
+
+    <a href="https://www.youtube.com/watch?v=vf6znTy2eqA&list=PLJf-GHWGJp7ESnX4rhqa9QJ9htaVzQhDU&index=7">
+      <img width="400" height="400"
+        src="https://upload.wikimedia.org/wikipedia/commons/f/f9/9thWonderAtPaidDues-2008-resized.jpg"
+        class="align-left slide-in">
+    </a>
+
+
+    <p><b>9th Wonder</b>, is a hip hop record producer,
+      record executive, DJ, lecturer, and rapper from Midway, North Carolina, U.S. He began his career as the main
+      producer for the group Little Brother in Durham, North Carolina, and has also worked with Mary J. Blige, Jean
+      Grae, Wale, Jay-Z, Murs, Drake, Buckshot, Chris Brown, Destiny's Child, J. Cole, Kendrick Lamar, Erykah Badu,
+      Ludacris, Mac Miller, David Banner, Lecrae, Jill Scott, Big Boi, Rapsody, 2 Chainz, Nipsey Hussle, and Anderson
+      .Paak. As of 2010, 9th Wonder raps under the name of 9thmatic. 9th Wonder has a smooth and soulful production
+      style that builds on samples from artists such as Al Green and Curtis Mayfield.</p>
+    <p>9th Wonder's first significant career breakthrough came in 2003 when, as an up-and-coming producer, he released
+      an unofficial remix album of Nas' 2002 album God's Son entitled God's Stepson. Released through internet
+      outlets, the album garnered significant attention and acclaim. The producer has said that he was not thinking
+      in terms of using it to generate a buzz or promote his skills at that point: "I never thought any of this of me as
+      a producer was going to happen." The album has since been credited as starting the now regular trend for
+      unofficial 'home-made' remixes of whole albums.
+    </p>
+
+
+    <a href="https://www.youtube.com/watch?v=OjHX7jf-znA">
+      <img width="400" height="401" src="https://i.pinimg.com/originals/86/a5/cb/86a5cb3219345e5011c1493594c4f5b3.jpg"
+        class="align-right slide-in">
+    </a>
+
+
+    <p><b>J Dilla</b> was an American record producer and rapper who emerged in the mid-1990s underground hip hop scene
+      in
+      Detroit, Michigan, as one third of the acclaimed music group Slum Village. His obituary at NPR stated that he
+      "was one of the music industry's most influential hip-hop artists, "working with notable acts including A
+      Tribe Called Quest, De La Soul, Busta Rhymes, Erykah Badu, The Roots, The Pharcyde, Madlib and Common.</p>
+
+    <a href="https://www.youtube.com/watch?v=uvb-1wjAtk4">
+      <img width="400" height="401" src="https://i.ytimg.com/vi/1ifqDPMFSLk/hqdefault.jpg" class="align-left slide-in">
+    </a>
+
+    <p><b>Kanye West</b> is an American rapper, singer, songwriter, record producer,
+      entrepreneur, and fashion designer.[2] His music has spanned a broad range of styles, incorporating an
+      eclectic
+      range of influences including hip hop, soul, baroque pop, electro, indie rock, synth-pop, industrial, and
+      gospel.</p>
+    <p>Born in Atlanta and raised in Chicago, West first became known as a producer for Roc-A-Fella Records in the
+      early 2000s, producing singles for recording artists such as Jay-Z, Ludacris and Alicia Keys. Intent on
+      pursuing
+      a solo career as a rapper, West released his debut album The College Dropout in 2004 to critical and
+      commercial
+      success, and founded the record label GOOD Music. He went on to experiment with a variety of musical genres on
+      subsequent acclaimed studio albums, including Late Registration (2005), Graduation (2007), and the polarizing
+      but influential 808s & Heartbreak (2008). He released his fifth album My Beautiful Dark Twisted Fantasy in
+      2010
+      to further rave reviews, and has since succeeded it with Yeezus (2013), The Life of Pablo (2016). Ye (2018),
+      and
+      Jesus Is King (2019), as well as full-length collaborations Watch the Throne (2011) and Kids See Ghosts (2018)
+      with Jay-Z and Kid Cudi respectively.</p>
+
+
+    <a href="https://www.youtube.com/watch?v=p6TrQzNTrRA">
+      <img width="400" src="https://i.pinimg.com/originals/37/19/9a/37199a736d256e89cdfbb2d11f2da5e9.jpg"
+        class="align-left slide-in">
+    </a>
+
+
+    <p><b>Alchemist</b>, is an
+      American record producer, disc jockey (DJ) and rapper. He began his music career in 1991 in the hip hop duo
+      The Whooliganz under the moniker Mudfoot, along with now-actor Scott Caan (whose moniker was "Mad Skillz").
+      After rising to prominence in the late 1990s, as a close associate of Dilated Peoples and Mobb Deep, he went
+      on
+      to produce for many of hip hop's leading artists in the 2000s, and has been hailed as one of the genre's
+      leading
+      producers. He is currently working as a DJ with Action Bronson. He produces for many artists, most of his
+      recent
+      production is for a close group of frequent collaborative rappers. He focuses on producing entire albums for
+      rappers and instrumental projects of his own.</p>
+
+    <a href="https://www.youtube.com/watch?v=2_ZC1T48mRw">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr2CuymssqQG0EVnbfABGzhUpOc3P634D-7SGRUV9zZBqm7l8m&s"
+        class="align-right slide-in">
+    </a>
+
+
+    <p><b>Large Professor</b> is an American hip hop rapper
+      and record producer also known as Large Pro and Extra P. Based in New York City, he is known as a founding member
+      of the underground hip hop group Main Source and as mentor and frequent collaborator of Nas. About.com ranked
+      Large Professor #13 on its Top 25 Hip-Hop Producers list.</p>
+
+    <p>In 1994 Large Professor produced three of the ten songs on Nas's Illmatic ("Halftime", "One Time 4 Your Mind",
+      and "It Ain't Hard To Tell"), the most of any producer involved with the album. According to an interview with
+      Busta Rhymes, the "Halftime" beat was originally intended for him.Thought he liked the beat, he didn't end up
+      using it and later regretted it after hearing "Halftime". While describing the making of the song in an
+      interview Large Pro said, "I mean, we just wanted to put something gritty out there to the world, and those
+      drums—that's what it was at that time. It was that gritty, muffled out, because the Hip Hop that we grew up with…
+      We grew up with park jam tapes and things like the fidelity of these tapes." He was so instrumental in the
+      making of Illmatic that Nas wanted to give him an executive producer credit, but he refused.</p>
+
+    <p>In 1996 Large Professor completed his debut solo album The LP for Geffen Records. After several delays, the album
+      was shelved[11] and later released as a bootleg version in 2002. An official release of the album finally came out
+      in 2009, thirteen years after its original intended release date.</p>
+
+    <p>In 2001 Large Pro produced "You're da Man" and "Rewind" for Nas's Stillmatic album. He first played Nas the beat
+      for "You're Da Man" while Nas was working on Nastradamus a few years prior. Nas chose the beat but decided to
+      save it for a later project.[12] Large Professor also used the same vocal sample from the chorus on the song "The
+      Man" for his 1st Class album.</p>
+
+    <a href="https://www.youtube.com/watch?v=iMsdzxuldQM">
+      <img width="300" src="http://www.amoeba.com/dynamic-images/blog/gang-starr.jpg" class="align-left slide-in">
+    </a>
+
+    <p><b>DJ Premier</b> (also known as Preemo), is
+      an American record producer and DJ, and was half of the hip hop duo Gang Starr—alongside the emcee Guru—and forms
+      half of the hip hop duo PRhyme, together with Royce da 5'9". He is considered one of the best hip hop producers of
+      all time.</p>
+    <p>Premier is known for producing all of Gang Starr's songs as well as many of those composed by the Gang Starr
+      Foundation. Notable artists he has worked with include Anderson .Paak, AZ, Big Daddy Kane, Big L, Blaq Poet, Bun
+      B, Canibus, Christina Aguilera, Common, D'Angelo, Dilated Peoples, D.I.T.C., Dr. Dre, Fat Joe, Game, Ill Bill,
+      Janet Jackson, Jay-Z, Joey Bada$$, Kanye West, KRS-One, The Lady of Rage, Limp Bizkit, Lord Finesse, The LOX,
+      Ludacris, Mac Miller, Mobb Deep, M.O.P., Mos Def, Nas, The Notorious B.I.G., O.C., Papoose, Rakim, Royce da 5'9",
+      Snoop Dogg, Xzibit and more.</p>
+    <p>Premier collaborated with MC Jeru the Damaja on the album The Sun Rises in the East, released in 1994, as well as
+      the 1996 follow-up, Wrath of the Math. Premier produced and supervised Livin' Proof by Group Home, also from the
+      Gang Starr Foundation; although overlooked at the time of its 1995 release, the album eventually received acclaim.
+    </p>
+    <p>As a businessman, DJ Premier has his own record company named Year Round Records. Among its artists are New York
+      group NYGz, New Jersey rapper Nick Javas, and Houston rapper Khaleel. Tha Blaqprint by Blaq Poet, which features
+      13 Premier productions, was released by Year Round Records through Fat Beats Records in June 2009.</p>
+    <p>In 2019, Dj Premier produced <i>Family & Loyalty</i> a record featuring J-Cole as a tribute to his long
+      time
+      partner and best friend Gang Starr.</p>
+
+    <a href="https://www.youtube.com/watch?v=cPRKsKwEdUQ">
+      <img class="align-right slide-in" width="400" height="400"
+        src="https://media2.fdncms.com/pittsburgh/imager/the-tao-of-the-steubenville-public-library-rza/u/original/1637803/music1storymain_web.jpg"
+        alt="">
+    </a>
+
+    <p><b>RZA</b>, is an American rapper, record producer, musician, actor, and director. He is the de facto
+      leader of the Wu-Tang Clan. He has produced almost all of Wu-Tang Clan's albums, as well as many Wu-Tang solo
+      and affiliate projects. He is a cousin of two other original Wu-Tang Clan members: GZA and Ol' Dirty Bastard. He
+      has also released solo albums under the alter-ego Bobby Digital, along with executive producing credits for side
+      projects. After forming the Wu-Tang Clan, RZA was a founding member of the horrorcore group Gravediggaz, where he
+      went by the name The RZArector.</p>
+
+    <p>RZA has been heavily involved in filmmaking since the late 1990s. He has scored a number of films, most notably
+      Kill Bill: Volume 1 (2003) and Kill Bill: Volume 2 (2004). He has written and directed in film and television,
+      starting with his directorial debut, The Man with the Iron Fists, in 2012. He has also acted in numerous films and
+      TV series, including the films American Gangster and Brick Mansions, and the TV series Gang Related and
+      Californication.</p>
+    <p>He is especially known for his music production, with a style that includes the use of soul samples and sparse
+      beats that has proved highly influential. The magazine The Source placed him on its list of the 20 greatest
+      producers in the magazine's twenty-year history. Vibe listed him among the top 8 greatest hip-hop producers of
+      all time, and NME placed him on their list of the 50 Greatest Producers Ever.</p>
+
+    <a href="https://www.youtube.com/watch?v=LOtkH5amC7s">
+      <img class="align-right slide-in" width="400" height="400"
+        src="https://images.saatchiart.com/saatchi/973322/art/3671651/2741536-KWTHHYPY-6.jpg" alt="">
+    </a>
+
+    <p><b>Pharrell Williams</b>, is an American singer, rapper, songwriter, record producer, fashion designer, and
+      entrepreneur. Williams and Chad Hugo formed the record production duo The Neptunes in 1992, producing hip hop and
+      R&B music. He is the lead vocalist of the band N*E*R*D, which he formed with Hugo and childhood friend Shay Haley.
+      He released his first solo single, "Frontin'", in 2003 and followed it with his debut solo album, In My Mind, in
+      2006.[3] His second album, Girl, was released in March 2014 and included the commercially successful single
+      "Happy". As part of the Neptunes, Williams has produced numerous singles for various recording artists</p>
+
+    <p>Williams has earned ten Grammy Awards including two with the Neptunes. He is also a two-time Academy Award
+      nominee, receiving a 2014 Best Original Song nomination for "Happy" (which was featured in Despicable Me 2) and a
+      2017 Best Picture nomination as one of the producers of Hidden Figures. Williams owns I Am Other, a multimedia
+      creative collective that serves as an umbrella for all of Pharrell Williams' endeavors, including Billionaire Boys
+      Club.</p>
+
+    <a href="https://www.youtube.com/watch?v=pzAIhjxEemw">
+      <img width="400" height="400" src="https://news.djcity.com/wp-content/uploads/2018/10/luckyyou-feat.jpg" alt=""
+        class="align-left slide-in">
+    </a>
+
+    <p><b>Boi-1da</b> is a Canadian record producer
+      from Toronto, Ontario.</p>
+    <p>He is an in-house producer for Drake's OVO Sound label and has produced for a variety of artists and groups, most
+      notably Drake, Rihanna, Eminem, Jay-Z, Nicki Minaj, Nas, Lana Del Rey and Kendrick Lamar among others. In 2015,
+      Samuels served as the executive producer for Drake's mixtape, If You're Reading This It's Too Late.
+    </p>
+
+    <a href="https://www.youtube.com/watch?v=sV2t3tW_JTQ">
+      <img width="400" height="400"
+        src="https://images.sk-static.com/images/media/profile_images/artists/7998753/huge_avatar" alt=""
+        class="align-right slide-in">
+    </a>
+
+    <p><b>Metro Boomin</b> (also known as Young Metro or simply Metro), is an American record producer,
+      record executive,
+      songwriter, and DJ. Raised in St. Louis, Wayne began a production career while in high school and became known
+      for his successful recordings with Atlanta hip hop and trap artists such as Future, 21 Savage, Gucci Mane, and
+      Migos in the mid-2010s. In 2017, Forbes called him "easily one of the most in-demand hitmakers in the
+      world,"while Stereogum described him as "one of the most original, vivid, important voices in rap right now."
+    </p>
+    <p>Early production success for Wayne came with tracks such as ILoveMakonnen's 2014 hit "Tuesday" and Drake and
+      Future's 2015 single "Jumpman". Since then, he has amassed over a dozen top 20 hits, including "Bad and Boujee"
+      by Migos, "Mask Off" by Future, "Bank Account" by 21 Savage, "Congratulations" by Post Malone, and "Tunnel Vision"
+      by Kodak Black. He has also released full-length collaborations, including Savage Mode (2016) with 21 Savage,
+      Double or Nothing (2017) with Big Sean, and DropTopWop (2017) with Gucci Mane.
+      <p>His debut solo album Not All Heroes
+        Wear Capes was released in November 2018, debuting at number one on the Billboard 200 chart. "Congratulations"
+        by
+        Post Malone featuring Quavo was his first diamond certification (10x Platinum), being certified in 2019.
+      </p>
+
+
+
+
+  </div>
+
+  <script>
+    function debounce(func, wait = 20, immediate = true) {
+      var timeout;
+      return function () {
+        var context = this,
+          args = arguments;
+        var later = function () {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    }
+    const sliderImages = document.querySelectorAll('.slide-in');
+    const sliderNames = document.querySelectorAll('.slide-in');
+
+    function checkSlide(e) {
+      // console.log(window.scrollY);
+      sliderImages.forEach(sliderImage => {
+        //half way through the image
+        const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+        // console.log(slideInAt);
+        //bottom of the image
+        const imageBottom = sliderImage.offsetTop + sliderImage.height;
+        const isHalfShown = slideInAt > sliderImage.offsetTop;
+        //
+        const isNotScrolledPast = window.scrollY < imageBottom;
+        if (isHalfShown && isNotScrolledPast) {
+          sliderImage.classList.add('active');
+        } else {
+          sliderImage.classList.remove('active');
+        }
+      });
+      // console.count(e);
+
+    }
+
+
+    window.addEventListener('scroll', debounce(checkSlide));
+  </script>
+
+
+
+</body>
+
+</html>
